@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PayMittoSDK'
-  s.version          = '11.0.2'
+  s.version          = '11.0.3'
   s.summary          = 'Cross-border payouts, remittances & disbursements made easy'
   
   s.description      = <<-DESC

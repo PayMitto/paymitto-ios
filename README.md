@@ -19,7 +19,7 @@ Distribution of the PayMitto SDK via Swift Package Manager and Cocoapods.
 
 1. File → Add Package Dependencies
 2. Enter: `https://github.com/PayMitto/paymitto-ios`
-3. Select version: `11.0.1`
+3. Select version: `11.0.3`
 
 ### Swift Package Manager
 
@@ -27,7 +27,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/PayMitto/paymitto-ios", exact: "11.0.1")
+    .package(url: "https://github.com/PayMitto/paymitto-ios", exact: "11.0.3")
 ]
 ```
 
@@ -47,7 +47,7 @@ Then add `PayMittoSDK` to your target's dependencies:
 Add the pod to your `Podfile`:
 
 ```ruby
-pod 'PayMittoSDK', :git => 'https://github.com/PayMitto/paymitto-ios.git', :tag => '11.0.1'
+pod 'PayMittoSDK', :git => 'https://github.com/PayMitto/paymitto-ios.git', :tag => '11.0.3'
 ```
 
 Then run:
