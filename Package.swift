@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let version = "11.0.3"
+let version = "11.2.0"
 let baseURL = "https://github.com/PayMitto/paymitto-ios/releases/download/\(version)"
 
 let package = Package(
@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "PayMittoSDK",
             url: "\(baseURL)/PayMittoSDK.xcframework.zip",
-            checksum: "86f4f09e14f7a7a700fb0dc8f90e24fb6c54c8d6cbd433b7f2b19bd5f9de1929"
+            checksum: "2691ce6c933e74a755998f861c8b841e10569e4249803efce44e31e0c3055765"
         ),
         .binaryTarget(
             name: "VisaSensoryBranding",
